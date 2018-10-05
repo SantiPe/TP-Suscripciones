@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: rgb(45, 177, 238);
+}
+main {
+  flex: 1 0 auto;
+}
+
+.showBlock{
+  display: block;
+}
+
+.floatRight{
+  width:100%; padding:0;
+}
+
+.ccDiv{
+  text-align: center;
+}
+
+.creditcard{
+  display: inline-block;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: darkgrey;
+  margin-bottom: 10px;
+}
+
+.My_Footer{
+  position: absolute;
+  bottom:1;
+  width:100%;
+  height: 5px;
+}
+
+.Register{
+  background: white;
+}
